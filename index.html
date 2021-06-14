@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workspace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <div class="main">
+
+       
+          
+        <header class="header">
+            <div class="icon"> <i class="fa fa-suitcase">.    Workspace</i>  </div>
+            <div>Laxman <img src="lax1.jpeg" alt="" class="imghead"></div>
+        </header>
+        
+
+        <div class="midrow">
+
+            
+        <section class="menubar">
+            
+            <ul class="a123"><i class="fa fa-sort-down"></i> FAVORITE
+                <li class="a456">Project name</li>
+               <li class="a456">Google</li>
+               <li class="a456">Nike</li>
+            </ul>
+            <ul class="a123"><i class="fa fa-sort-down"></i> PROJECTS
+                <li class="a456">Jhon doe LLC</li>
+               <li class="a456">Maek sponcer & Co</li>
+               
+            </ul>
+            <UL class="a123"><i class="fa fa-sort-right"></i> CLIENTS</UL>
+            <ul class="a123"><i class="fa fa-sort-down"></i> TAGES
+                <li class="a456">#wordpress</li>
+                <li class="a456">#Bootstrap</li>
+                <li class="a456">#React</li></ul>
+            <ul class="a123"><i class="fa fa-sort-down"></i> MEMBERS <div class="imgli">
+
+               <li class="a456"> <img src="travel1.jpg" alt="logo" class="img"> Jason doe</li>
+               <li class="a456"> <img src="work1.jpg" alt="" class="img"> Mike spilberg</li>
+               <li class="a456"> <img src="music1.jpg" alt="" class="img"> MIracle </li>
+               <li class="a456"><img src="art1.jpg" alt="" class="img">  Jhone doe</li><br><br><br><br><br><br>
+                </div>
+            </ul>
+        </section>
+            
+
+
+        <section class="content">
+            <div class="a">
+                <h2 class="pname">Project Name <i class="fa fa-lock"></i></h2>
+                <h4 class="p-sub-head" >Description of the project goes here</h4>
+                <div class="option"><i class="fa fa-ellipsis-v"></i></div>
+            </div>
+            <div class="b">
+                
+                <div class="tab">
+                    <button class="tablinks" id="d1" onclick="openCity(event, 'London')">Graph</button>
+                    <button class="tablinks" id="d1" onclick="openCity(event, 'Paris')">Bar chart</button>
+                    <button class="tablinks" id="d1" onclick="openCity(event, 'Tokyo')">mixed chart</button>
+                    <button class="tablinks" id="d1" onclick="openCity(event, 'Tokyo')">reports</button>
+                  </div>
+
+                <div class="count">
+
+                    <div class="a1">
+                        <h4 class="afont">Total time</h4>
+                        <h2 class="bfont">32:34:11</h2>
+                    </div>
+                    <div class="a2">
+                        <h4 class="afont">Average daily</h4>
+                        <h2 class="bfont">06:54:11</h2>
+                    </div>
+                    <div class="a3"><h4 class="afont" >Average on tak</h4>
+                        <h2 class="bfont">32:34:11</h2>
+                    </div>
+                    <div class="a4"><h4> Last 7 days <i class="fa fa-sort-down"></i></h4></div>
+
+
+
+                </div>
+                <div class="thirdnav">
+                    <div id="London" class="tabcontent">
+                        <canvas id="myChart" style="padding-top:90px; width:100%;max-width:700px"></canvas>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent">
+                        <canvas id="myChart2" style="padding-top:90px; width:100%;max-width:700px"></canvas>   
+                    </div>
+                    <div id="Paris" class="tabcontent">
+                        <canvas id="myChart3" style="padding-top:90px; width:100%;max-width:700px"></canvas>   
+                    </div>
+
+
+
+            </div>
+            <div class="c">
+
+                <div class="firstline">
+                <div><h2 class="ab-task">Task</h2>
+                <div class="ab-icon"><i class="fa fa-plus"></i></div>
+                </div><br>
+               </div>
+               <div class="border"></div>
+               
+                <div class="finaltab">
+                    <div class="responsive1">
+                    <h4 class="ab-res">Responcive website</h4>
+                    <div class="ab-icon2"><i class="fa fa-ellipsis-v"></i></div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="responsive1">
+                        <h4 class="ab-res">Integrate google analystic</h4>
+                        <div class="ab-icon2"><i class="fa fa-ellipsis-v"></i></div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="responsive1">
+                            <h4 class="ab-res">Data management</h4>
+                            <div class="ab-icon2"><i class="fa fa-ellipsis-v"></i></div>
+                            </div>
+                </div>
+
+             </div>
+                
+            
+
+        </section>
+
+
+
+
+        <section class="sidebar">
+            
+                    <div class="firstbox">
+                        <h3>Active Task Name</h3>
+                        <h4>@Project name</h4>
+                        <div class="time"><i class="fa fa-pause">  o1:43:27</i></div><br>
+                    </div>
+
+                <div class="box">
+                    <div class="secondbox">
+                    <h3 class="thirdheading">Draft</h3>
+                    <div class="today"><h4>Today</h4>
+                    <h3 class="today2">11:30Am</h3> 
+                     </div></div>
+                    <div class="listicon"><i class="fa fa-list"></i></div>
+               <div class="border"></div>
+            
+               <div class="feb23">
+                    <div class=""><h4>feb 23</h4>
+                       <h3 class="today2">10:27Am</h3> </div>
+            </div>
+                <div class="listicon2"><i class="fa fa-list"></i></div>
+                </div>
+            
+
+
+
+            <div class="box">       
+            <div class="thirdbox">
+                
+                        <h3 class="thirdheading">Recent Timestamp</h3>
+                    
+                    <h4 class="thirdtoday"><i class="fa fa-sort-down"></i> today</h4>
+                        <div class="now"> <h3 >6:39:42</h3></div>
+                    
+
+                        <div class="border"></div>
+                        <br>
+                        <h3 class="thirdheading">Bootstrap Development</h3>
+                    
+                    <h4 class="thirdtoday"> @project name</h4>
+                        <div class="now"> <h3 >1:39:42</h3></div>
+                        <div class="border"></div>
+                        <br>
+
+
+                        <h3 class="thirdheading">Improvement of html</h3>
+                    
+                        <h4 class="thirdtoday"> @project name</h4>
+                            <div class="now"> <h3 >2:39:42</h3></div>
+
+                            <h4 class="thirdtoday"> yesterday</h4><br>
+                            <div class="now"> <h3 >2:39:42</h3></div>
+
+                         
+                
+                </div>        
+            </div>    
+            </section>
+         </div>
+        
+
+
+
+
+
+
+    </div>
+             
+
+</body>
+
+            <script>
+                var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+            var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+            new Chart("myChart", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{
+                fill: false,
+                lineTension: 0,
+                backgroundColor: "rgba(0,0,255,1.0)",
+                borderColor: "rgba(0,0,255,0.1)",
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                scales: {
+                yAxes: [{ticks: {min: 6, max:16}}],
+                }
+            }
+            });
+            new Chart("myChart2", {
+                type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                fill: false,
+                lineTension: 0,
+                backgroundColor: "rgba(0,0,255,1.0)",
+                borderColor: "rgba(0,0,255,0.1)",
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                scales: {
+                yAxes: [{ticks: {min: 6, max:16}}],
+                }
+            },
+            });
+
+
+            new Chart("myChart3",{
+                type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                fill: false,
+                lineTension: 0,
+                backgroundColor: "rgba(0,0,255,1.0)",
+                borderColor: "rgba(0,0,255,0.1)",
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                scales: {
+                yAxes: [{ticks: {min: 6, max:16}}],
+                }
+            },
+            });
+
+
+
+
+            function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";}
+            </script>
+
+       
+            
+</html>
